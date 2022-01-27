@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <parameter name="test1" value="Zhaoqing"></parameter>-->
+<!--    <parameter name="test1" value="handsome"></parameter>-->
+    <test verbose="2" preserve-order="true" name="D:/IDEAProject/IDEA-Ultimate-test">
+        <parameter name="Myname" value="赵庆"></parameter>
+        <parameter name="Myhigh" value="175.12"></parameter>
+        <parameter name="Mymoney" value="12000000000"></parameter>
+        <classes>
+<!--            <class name="com.zhaoq.testcase.demo05"/>-->
+<!--            <class name="com.zhaoq.testcase.demo06"/>-->
+<!--            <class name="com.zhaoq.testcase.demo07"></class>-->
+<!--            <class name="com.zhaoq.testcase02.ParameterizedTest1"></class>-->
+<!--            <class name="com.zhaoq.testcase02.DataProviderLearn"></class>-->
+<!--            <class name="com.zhaoq.testcase02.TestNGIgnore"></class>-->
+<!--            <class name="com.zhaoq.testcase02.DependsTest"></class>-->
+<!--            <class name="com.zhaoq.testcase04.testSubject01"></class>-->
+<!--            <class name="com.zhaoq.demo04.Subject01Test"></class>-->
+<!--            <class name="com.zhaoq.API.TestParameters"></class>-->
+<!--            <class name="com.zhaoq.API.DependsTest"></class>-->
+            <class name="com.zhaoq.testcase1223.NewTest"></class>
+        </classes>
+    </test>
+    <parameter name="firstname" value="尼古拉斯"></parameter>
+    <parameter name="lastname" value="赵四"></parameter>
+
+</suite>
